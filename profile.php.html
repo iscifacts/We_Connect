@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+     .grey-bg {
+      background-color: #f5f7fa;
+      padding: 40px 0;
+    }
+    .box {
+      background-color: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      width: 300px; /* Fixed width for each box */
+      height: 200px;
+    }
+    .image {
+      width: 100%;
+      max-width: 100%;
+      height: 300px;
+      border-radius: 8px;
+      display: block;
+      
+    }
+    @media screen and (min-width: 480px) {
+    .image {
+      width: 100%;
+      max-width: 100%;
+      height: 400px;
+      border-radius: 8px;
+      display: block;
+      
+    }
+}
+    .box-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+  </style>
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://pixinvent.com/stack-responsive-bootstrap-4-admin-template/app-assets/css/bootstrap-extended.min.css">
+  <link rel="stylesheet" type="text/css" href="https://pixinvent.com/stack-responsive-bootstrap-4-admin-template/app-assets/fonts/simple-line-icons/style.min.css">
+  <link rel="stylesheet" type="text/css" href="https://pixinvent.com/stack-responsive-bootstrap-4-admin-template/app-assets/css/colors.min.css">
+  <link rel="stylesheet" type="text/css" href="https://pixinvent.com/stack-responsive-bootstrap-4-admin-template/app-assets/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body style="">
+  <div class="grey-bg container-fluid">
+    <h1 style="font-size: 50px; font-family: cursive; margin: auto; text-align: center; border: dashed; border-radius: 25px; border-width: 6px; border-color: blue;">Your Profile</h1>
+    <div class="row justify-content-center align-items-center mt-3">
+      <div class="col-md-6 text-center mb-4">
+        <img src="-5u85ln.jpg" alt="Your Image" class="image">
+      </div>
+      <div class="col-md-6">
+        <div class="box-container">
+          <div class="card box">
+            <div class="card-content">
+              <div class="card-body">
+                <div class="media d-flex ">
+                  <div class="align-self-center">
+                    <i class="icon-pencil primary font-large-2 float-left"></i>
+                  </div>
+                  <div class="media-body text-right">
+                    <h2>278</h2>
+                    <span><h4>Events Participated</h4></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card box">
+            <div class="card-content">
+              <div class="card-body">
+                <div class="media d-flex ">
+                  <div class="align-self-center">
+                    <i class="icon-user primary font-large-2 float-left"></i>
+                  </div>
+                  <div class="media-body text-right">
+                    <h2>Arpit Agrawal</h2>
+                    <span><h4>Name</h4></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card box">
+            <div class="card-content">
+              <div class="card-body">
+                <div class="media d-flex ">
+                  <div class="align-self-center">
+                    <i class="icon-speech primary font-large-2 float-left"></i>
+                  </div>
+                  <div class="media-body text-right">
+                    <h2>278</h2>
+                    <span><h4>College</h4></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card box">
+            <div class="card-content">
+              <div class="card-body">
+                <div class="media d-flex ">
+                  <div class="align-self-center">
+                    <i class="icon-pointer primary font-large-2 float-left"></i>
+                  </div>
+                  <div class="media-body text-right">
+                    <h2>278</h2>
+                    <span><h4>Your City</h4></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Add more boxes here as needed -->
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
